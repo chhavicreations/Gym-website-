@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="MayankFitness - Premium Fitness Center with Certified Trainers">
+
+<title> MayankFitness </title>
+
+<!-- Bootstrap CSS FIRST -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+<!-- Your CSS -->
+<link rel="stylesheet" href="CSS/style.css">
+<link rel="stylesheet" href="CSS/utils.css">
+
+<!-- then add Responsive.css -->
+<link rel="stylesheet" href="CSS/responsive.css">
+
+
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> 
+
+<!-- Inter font importing file-->
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@100..900&display=swap" rel="stylesheet">
+
+
+
+
+
+<!-- Favicon -->
+<link rel="icon" href="IMAGES/favicon.png">
+
+</head>
+
+
+<body>
+
+
+
+<!-- Your JavaScript -->
+
+<script src="timer.js" defer></script>
+
+
+   <!-- HEADER -->
+ 
+
+<header class="site-header sticky-top">
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#home">
+        <img src="IMAGES/logo.png" alt="MayankFitness logo">
+      </a>
+
+      <button class="navbar-toggler" type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#mainNavbar"
+        aria-controls="mainNavbar"
+        aria-expanded="false"
+        aria-label="Open navigation menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav ms-auto align-items-lg-center nav-menu">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+          <li class="nav-item"><a class="nav-link" href="#trainers">Trainers</a></li>
+          <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+          <li class="nav-item">
+         <a class="join-btn" href="#contact">Join Now</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+
+<!-- SECTION 1 -->
+
+<section class="hero" id="home">
+    
+    <!-- TOP part of left div -->
+<div class="first">
+<h1 class="hero-title"> Transform Your Body.<br>
+        Build Your Strength.
+    </h1>
+
+    <p>Join the city's most trusted fitness center with certified trainers,
+        modern equipment, personalized workout plans,
+        and flexible membership options designed for every fitness level. </p>
+    <p class="offer">🔥 Limited Time Membership Offer<br>
+        <span id="demo"></span>
+    </p>
+
+        <button class="btn">Start Free Trial</button>
+        <button class="btn">View Membership</button>
+   
+<!--STATS PART-->
+
+
+<div class="stats">
+
+        <div class="stat-box">
+            <h2>500+</h2>
+            <p>Happy Members</p>
+        </div>
+
+        <div class="stat-box">
+            <h2>15+</h2>
+            <p>Expert Trainers</p>
+        </div>
+
+        <div class="stat-box">
+            <h2>24/7</h2>
+            <p>Open Gym</p>
+        </div>
+
+        <div class="stat-box">
+            <h2>10+</h2>
+            <p>Years Experience</p>
+        </div>
+</div>
+    </div>
+    </div>
+
+</section>
+
+<section class="section2" id="pricing">
+<h2 class="section-heading text-center">Membership Plans</h1>
+<p class="my-2"></p>
+
+
+<div class="boxes flex justify-center">
+
+<div class="box">
+    <h2>Basic Plan</h2>
+    <ul>
+        <li class="highlighted">₹999/month</li>
+        <li>✔ Unlimited Gym Access</li>
+        <li>✔ Cardio Equipment</li>
+        <li>✔ Locker Facility</li>
+        <li>✔ Free Fitness Assessment</li>
+        <li><a href="#contact" class="btn">Choose Basic</a></li>
+
+    </ul>
+</div>
+
+<div class="box">
+    <h2>Premium Plan</h2>
+    <ul>
+        <li class="highlighted">₹1999/month</li>
+        <li>✔ Everything in Basic</li>
+        <li>✔ Personal Trainer</li>
+        <li>✔ Nutrition Guidance</li>
+        <li>✔ Group Fitness Classes</li>
+        <li><a href="#contact" class="btn">Choose Premium</a></li>
+    </ul>
+</div>
+
+<div class="box">
+    <h2>Elite Plan</h2>
+    <ul>
+        <li class="highlighted">₹2999/month</li>
+        <li>✔ Unlimited Access</li>
+        <li>✔ Personal Coach</li>
+        <li>✔ Diet Plan</li>
+        <li>✔ Steam & Sauna</li>
+        <li><a href="#contact" class="btn">Choose Elite</a></li>
+    </ul>
+</div>
+</div>
+</section>
+
+<section class="container py-5" id="why-us">
+<h2 class="section-heading text-center py-2"> Why Choose HarryFitness? </h2>
+<div class="row">
+<div class="col-md-3">
+    <div class="feature-box text-center p-4">
+        <i class="fa-solid fa-dumbbell feature-icon"></i>
+        <h4>Modern Equipment</h4>
+        <p> Premium imported gym machines for every workout. </p>
+    </div>
+</div>
+<div class="col-md-3">
+    <div class="feature-box text-center p-4">
+        <i class="fa-solid fa-user-check feature-icon"></i>
+        <h4>Certified Trainers</h4>
+        <p> Professional trainers with years of experience. </p>
+    </div>
+</div>
+<div class="col-md-3">
+    <div class="feature-box text-center p-4">
+        <i class="fa-solid fa-heart-pulse feature-icon"></i>
+        <h4>Healthy Diet</h4>
+        <p> Customized nutrition plans for every member. </p>
+    </div>
+</div>
+<div class="col-md-3">
+    <div class="feature-box text-center p-4">
+        <i class="fa-solid fa-clock feature-icon"></i>
+        <h4>24/7 Support</h4>
+        <p> Train anytime with flexible gym timings. </p>
+    </div>
+</div>
+</div>
+</section>
+
+<section class="container py-5" id="trainers">
+<h2 class="section-heading text-center"> Meet Our Expert Trainers </h2>
+<p class="text-center text-muted mb-5"> Certified professionals dedicated to helping you reach your fitness
+goals. </p>
+<div class="row g-4">
+<div class="col-md-4">
+    <div class="trainer-card">
+        <img src="IMAGES/san.jpeg" class="img-fluid">
+        <div class="trainer-content">
+            <h4>Rahul Sharma</h4>
+            <span>Strength & Conditioning Coach</span>
+            <p> 8+ years of experience helping members build muscle, improve athletic performance and
+                stay injury-free. </p>
+            <a href="#contact" class="btn btn-danger"> Book Session </a>
+        </div>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="trainer-card">
+        <img src="images/nisha.jpg" class="img-fluid">
+        <div class="trainer-content">
+            <h4>Neha Kapoor</h4>
+            <span>Certified Nutrition Expert</span>
+            <p> Specializes in personalized nutrition plans, weight management and sustainable healthy
+                eating. </p>
+            <a href="#contact" class="btn btn-danger"> Book Session </a>
+
+            </div>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="trainer-card">
+        <img src="images/kal.jpeg" class="img-fluid">
+        <div class="trainer-content">
+            <h4>Arjun Singh</h4>
+            <span>Functional Fitness Trainer</span>
+            <p> Focuses on mobility, endurance and functional strength for people of all fitness levels.
+            </p>
+            <a href="#contact" class="btn btn-danger"> Book Session </a>
+
+        </div>
+    </div>
+</div>
+</div>
+</section>
+
+
+<section class="transformation-section container py-5">
+<h2 class="text-center fw-bold"> Real Member Transformations </h2>
+<p class="text-center text-muted mb-5"> Inspiring journeys that prove dedication delivers results. </p>
+<div class="row">
+<div class="col-md-6">
+    <img src="IMAGES/fit.jpg" class="img-fluid rounded">
+</div>
+<div class="col-md-6">
+    <h3>Lost 18 kg in 5 Months</h3>
+    <p> Through personalized coaching, structured workouts, and balanced nutrition, our member
+        transformed both physically and mentally. </p>
+    <ul>
+        <li>✔ Fat Loss</li>
+        <li>✔ Muscle Gain</li>
+        <li>✔ Better Stamina</li>
+        <li>✔ Improved Confidence</li>
+    </ul>
+    <button class="btn btn-danger"> Start Your Journey </button>
+</div>
+</div>
+</section>
+
+<section class="programs-section py-5" id="programs">
+<div class="container">
+<div class="text-center mb-5">
+    <h2 class="sections"> Explore Our Fitness Programs </h2>
+    <p class="text-muted fs-5"> Professionally designed training programs for every fitness goal. </p>
+</div>
+<div class="row g-4">
+    <!-- Card 1 -->
+    <div class="col-lg-4 col-md-6">
+        <div class="program-card">
+            <img src="images/sttr.jpg" class="img-fluid">
+            <div class="program-content">
+                <h4>Strength Training</h4>
+                <p> Build lean muscle, increase strength and improve overall performance with structured
+                    weight training. </p>
+              
+            </div>
+        </div>
+    </div>
+    <!-- Card 2 -->
+    <div class="col-lg-4 col-md-6">
+        <div class="program-card">
+            <img src="images/ty.jpg" class="img-fluid">
+            <div class="program-content">
+                <h4>Fat Loss Program</h4>
+                <p> Burn calories faster using personalized workout routines and nutrition guidance.
+                </p>
+            
+            </div>
+        </div>
+    </div>
+    <!-- Card 3 -->
+    <div class="col-lg-4 col-md-6">
+        <div class="program-card">
+            <img src="IMAGES/hiit.jpg" class="img-fluid">
+            <div class="program-content">
+                <h4>HIIT Training</h4>
+                <p> High-intensity interval workouts designed to improve endurance and cardiovascular
+                    fitness. </p>
+              
+            </div>
+        </div>
+    </div>
+    <!-- Card 4 -->
+    <div class="col-lg-4 col-md-6">
+        <div class="program-card">
+            <img src="images/yoga.jpg" class="img-fluid back">
+            <div class="program-content">
+                <h4>Yoga & Mobility</h4>
+                <p> Improve flexibility, posture and mental wellness through guided yoga sessions. </p>
+            </div>
+        </div>
+    </div>
+    <!-- Card 5 -->
+    <div class="col-lg-4 col-md-6">
+        <div class="program-card">
+            <img src="images/crossfit.jpg" class="img-fluid">
+            <div class="program-content">
+                <h4>CrossFit</h4>
+                <p> Functional training combining strength, cardio and agility to maximize overall
+                    fitness. </p>
+            </div>
+        </div>
+    </div>
+    <!-- Card 6 -->
+    <div class="col-lg-4 col-md-4">
+        <div class="program-card">
+            <img src="images/coach.jpg" class="img-fluid personal-coaching-img">
+            <div class="program-content">
+                <h4>Personal Coaching</h4>
+                <p> One-on-one coaching with certified trainers focused entirely on your personal
+                    fitness goals. </p>
+                
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</section>
+
+<section class="testimonials py-5" id="testimonials">
+<div class="container">
+<div class="text-center mb-5">
+    <span class="section-subtitle"> SUCCESS STORIES </span>
+    <h2 class="section-title"> What Our Members Say </h2>
+    <p class="section-description"> Thousands of members have transformed their lives with HarryFitness.
+        Here are a few of their experiences. </p>
+</div>
+<div class="row g-4">
+    <!-- Testimonial 1 -->
+    <div class="col-lg-4 col-md-6">
+        <div class="testimonial-card">
+            <img src="images/aman.jpg" class="client-img">
+            <div class="stars"> ★★★★★ </div>
+            <p class="review"> Joining HarryFitness was the best decision I made. The trainers are
+                supportive, the equipment is world-class and I lost 15 kg in just six months. </p>
+            <h5>Aman Verma</h5>
+            <span>Member Since 2023</span>
+        </div>
+    </div>
+    <!-- Testimonial 2 -->
+    <div class="col-lg-4 col-md-6">
+        <div class="testimonial-card">
+            <img src="IMAGES/priya.jpg" class="client-img">
+            <div class="stars"> ★★★★★ </div>
+            <p class="review"> Professional trainers, personalized diet plans and an amazing
+                environment. Every workout keeps me motivated to achieve more. </p>
+            <h5>Priya Kapoor</h5>
+            <span>Fitness Enthusiast</span>
+        </div>
+    </div>
+    <!-- Testimonial 3 -->
+    <div class="col-lg-4 col-md-6">
+        <div class="testimonial-card">
+            <img src="images/rohit.jpg" class="client-img">
+            <div class="stars"> ★★★★★ </div>
+            <p class="review"> The personal coaching sessions completely changed my strength and
+                confidence. Highly recommended for anyone serious about fitness. </p>
+            <h5>Rohit Sharma</h5>
+            <span>Elite Member</span>
+        </div>
+    </div>
+</div>
+</div>
+</section>
+
+<section class="faq-section py-5" id="faq">
+<div class="container">
+<div class="text-center mb-5">
+    <span class="faq-subtitle"> QUESTIONS & ANSWERS </span>
+    <h2 class="faq-title"> Frequently Asked Questions </h2>
+    <p class="faq-description"> Find answers to the most common questions about memberships, personal
+        training, facilities and our fitness programs. </p>
+</div>
+<div class="accordion" id="gymFAQ">
+    <!-- Question 1 -->
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#faq1"> Do you offer a free trial before joining? </button>
+        </h2>
+        <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#gymFAQ">
+            <div class="accordion-body"> Yes. Every new member can enjoy a complimentary one-day trial
+                to explore our facilities, meet our trainers and experience our training environment
+                before purchasing a membership. </div>
+        </div>
+    </div>
+    <!-- Question 2 -->
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#faq2"> Are personal trainers included in every plan? </button>
+        </h2>
+        <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#gymFAQ">
+            <div class="accordion-body"> Personal trainers are included in Premium and Elite
+                memberships. Basic members can also book one-on-one coaching sessions separately. </div>
+        </div>
+    </div>
+    <!-- Question 3 -->
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#faq3"> Do you provide customized diet plans? </button>
+        </h2>
+        <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#gymFAQ">
+            <div class="accordion-body"> Yes. Our certified nutrition experts create personalized diet
+                plans based on your body type, fitness goals and daily lifestyle. </div>
+        </div>
+    </div>
+    <!-- Question 4 -->
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#faq4"> What are your gym operating hours? </button>
+        </h2>
+        <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#gymFAQ">
+            <div class="accordion-body"> MayankFitness is open Monday to Sunday, from 5:00 AM to 11:00
+                PM, providing flexible timings to fit your schedule. </div>
+        </div>
+    </div>
+    <!-- Question 5 -->
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#faq5"> Is parking available for members? </button>
+        </h2>
+        <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#gymFAQ">
+            <div class="accordion-body"> Yes. Free and secure parking is available for all active
+                members during operating hours. </div>
+        </div>
+    </div>
+</div>
+</div>
+</section>
+
+<section class="cta-section py-5">
+<div class="container">
+<div class="cta-box">
+    <div class="row align-items-center">
+        <!-- Left Content -->
+        <div class="col-lg-8">
+            <span class="cta-subtitle"> START TODAY </span>
+            <h2> Ready To Transform Your Body? </h2>
+            <p> Join over 500+ fitness enthusiasts who trust HarryFitness for expert coaching, premium
+                equipment and customized fitness programs. </p>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="cta-feature">
+                        <i class="fa-solid fa-circle-check"></i> Certified Trainers
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cta-feature">
+                        <i class="fa-solid fa-circle-check"></i> Modern Equipment
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cta-feature">
+                        <i class="fa-solid fa-circle-check"></i> Flexible Membership
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Right Buttons -->
+        <div class="col-lg-4 text-center mt-4 mt-lg-0">
+            <a href="#contact" class="btn cta-btn"> Start Free Trial </a>
+            <br>
+            <br>
+            <a href="#pricing" class="btn cta-btn2"> View Membership </a>
+        </div>
+    </div>
+</div>
+</div>
+</section>
+
+<section class="contact-section py-5" id="contact">
+
+<div class="container">
+
+<div class="text-center mb-5">
+
+    <span class="contact-subtitle">
+        CONTACT US
+    </span>
+
+    <h2 class="contact-title">
+        Let's Start Your Fitness Journey
+        
+    </h2>
+
+    <p class="contact-description">
+        Have questions about memberships or training programs? Our team
+        is here to help you choose the perfect fitness plan.
+    </p>
+
+</div>
+
+<div class="row g-5 align-items-center">
+
+    <!-- Contact Information -->
+
+    <div class="col-lg-5">
+
+        <div class="contact-info">
+
+            <div class="info-box">
+
+                <i class="fa-solid fa-location-dot"></i>
+
+                <div>
+
+                    <h5>Visit Our Gym</h5>
+
+                    <p>
+                        221B Fitness Avenue,
+                        New Delhi, India
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="info-box">
+
+                <i class="fa-solid fa-phone"></i>
+
+                <div>
+
+                    <h5>Call Us</h5>
+
+                    <p>+91 98765 43210</p>
+
+                </div>
+
+            </div>
+
+            <div class="info-box">
+
+                <i class="fa-solid fa-envelope"></i>
+
+                <div>
+
+                    <h5>Email</h5>
+
+                    <p>support@MayankFitness.com</p>
+
+                </div>
+
+            </div>
+
+            <div class="info-box">
+
+                <i class="fa-solid fa-clock"></i>
+
+                <div>
+
+                    <h5>Working Hours</h5>
+
+                    <p>
+
+                        Monday - Friday<br>
+
+                        5:00 AM - 11:00 PM
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="social-icons mt-4">
+
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+                <a href="#"><i class="fab fa-instagram"></i></a>
+
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+
+                <a href="#"><i class="fab fa-youtube"></i></a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Contact Form -->
+
+    <div class="col-lg-7">
+
+        <div class="contact-form">
+
+            <form>
+
+                <div class="row">
+
+                    <div class="col-md-6 mb-4">
+
+                        <input type="text" class="form-control" placeholder="Full Name" required>
+
+                    </div>
+
+                    <div class="col-md-6 mb-4">
+
+                        <input type="email" class="form-control" placeholder="Email Address" required>
+
+                    </div>
+
+                </div>j
+
+                <div class="row">
+
+                    <div class="col-md-6 mb-4">
+
+                        <input type="tel" class="form-control" placeholder="Phone Number" required>
+
+                    </div>
+
+                    <div class="col-md-6 mb-4">
+
+                        <select class="form-select">
+
+                            <option selected>
+
+                                Select Fitness Goal
+
+                            </option>
+
+                            <option>
+
+                                Weight Loss
+
+                            </option>
+
+                            <option>
+
+                                Muscle Gain
+
+                            </option>
+
+                            <option>
+
+                                General Fitness
+
+                            </option>
+
+                            <option>
+
+                                Personal Training
+
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+                <div class="mb-4">
+
+                    <textarea rows="6" class="form-control"
+                        placeholder="Tell us about your fitness goals..."></textarea>
+
+                </div>
+
+                <button class="btn btn-warning px-5 py-3">
+
+                    Send Message
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+<div class="footer-container">
+<!-- Company -->
+
+<div class="footer-about">
+    <h2>Mayank Fitness</h2>
+
+    <p class="footer-tagline"> Train Strong. Live Better. </p>
+    <p class="footer-desc"> MayankFitness is dedicated to helping you build a stronger, healthier
+        lifestyle through
+        certified trainers, modern equipment, personalized workout plans, and a motivating fitness
+        community. </p>
+    <div class="social-icons">
+        <a href="#">
+            <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a href="#">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="#">
+            <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+
+
+        <a href="#">
+            <i class="fa-brands fa-youtube"></i>
+        </a>
+    </div>
+</div>
+<!-- Quick Links -->
+<div class="footer-column">
+    <h3>
+        <i class="fa-solid fa-link"></i> Quick Links
+    </h3>
+    <ul>
+        <li>
+            <a href="#home">Home</a>
+        </li>
+        <li>
+            <a href="#why-us">About Us</a>
+        </li>
+        <li>
+            <a href="#pricing">Membership</a>
+        </li>
+        <li>
+            <a href="#trainers">Our Trainers</a>
+        </li>
+        <li>
+            <a href="#testimonials">Testimonials</a>
+        </li>
+        <li>
+            <a href="#contact">Contact</a>
+        </li>
+    </ul>
+</div>
+<!-- Programs -->
+<div class="footer-column">
+    <h3>
+        <i class="fa-solid fa-dumbbell"></i> Programs
+    </h3>
+    <ul>
+        <li>
+            <a href="#programs">Strength Training</a>
+        </li>
+        <li>
+            <a href="#programs">HIIT Workouts</a>
+        </li>
+        <li>
+            <a href="#programs">Cardio Fitness</a>
+        </li>
+        <li>
+            <a href="#programs">Yoga Sessions</a>
+        </li>
+        <li>
+            <a href="#programs">Personal Coaching</a>
+        </li>
+    </ul>
+</div>
+<!-- Membership -->
+<div class="footer-column">
+    <h3>
+        <i class="fa-solid fa-crown"></i> Membership
+    </h3>
+    <ul>
+        <li>
+            <a href="#pricing">Basic Plan</a>
+        </li>
+        <li>
+            <a href="#pricing">Premium Plan</a>
+        </li>
+        <li>
+            <a href="#pricing">Elite Plan</a>
+        </li>
+        <li>
+            <a href="#pricing">Free Trial</a>
+        </li>
+        <li>
+            <a href="#pricing">Special Offers</a>
+        </li>
+    </ul>
+</div>
+<!-- Contact -->
+<div class="footer-column">
+    <h3>
+        <i class="fa-solid fa-location-dot"></i> Contact
+    </h3>
+    <ul class="footer-contact-list">
+         <li>
+        <i class="fa-solid fa-location-dot"></i>
+        <span>New Delhi, India</span>
+    </li>
+    <li>
+        <i class="fa-solid fa-phone"></i>
+        <span>+91 98765 43210</span>
+    </li>
+    <li>
+        <i class="fa-solid fa-envelope"></i>
+        <span>support@mayankfitness.com</span>
+    </li>
+    <li>
+        <i class="fa-solid fa-clock"></i>
+        <span>Mon - Sun | 5 AM - 11 PM</span>
+    </li>
+    </ul>
+</div>
+</div>
+<!-- Newsletter -->
+<div class="newsletter">
+<h3>Stay Connected</h3>
+<p> Subscribe to receive fitness tips, workout guides, nutrition advice, and exclusive membership
+    offers. </p>
+<form>
+    <input type="email" placeholder="Enter your email address">
+    <button> Subscribe </button>
+</form>
+</div>
+<!-- Footer Bottom -->
+<div class="footer-bottom">
+<p> ©MayankFitness. All Rights Reserved. </p>
+<p> Designed & Developed by <span>Mayank</span>
+</p>
+<div class="footer-policy">
+    <a href="#">Privacy Policy</a>
+    <span>|</span>
+    <a href="#">Terms & Conditions</a>
+</div>
+</div>
+</footer>
+
+</main>
+
+
+</div>
+
+<!-- JavaScript linking -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+</script>
+
+</body>
+
+</html>
